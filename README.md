@@ -65,18 +65,4 @@ python manage.py runserver
 
 The Telegram bot is now running and listening for incoming messages. You can access the home page at `http://localhost:8000/` to view the chat history and chat counts.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contribution
-
-Contributions are welcome! If you find any issues or want to add new features, please submit a pull request.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us at impressai@example.com.
-
-Enjoy chatting with the ImpressAI bot!
-
 **Note:** Make sure to replace the placeholder values in the `.env` file with your actual tokens and keys. The `.env` file should not be committed to version control to keep sensitive information secure.
