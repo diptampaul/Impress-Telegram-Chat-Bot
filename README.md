@@ -7,13 +7,13 @@ This project is a simple Telegram bot implemented using Django and Channels libr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/django-telegram-bot.git
+   git clone https://github.com/diptampaul/Impress-Telegram-Chat-Bot
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd django-telegram-bot
+   cd impressai
    ```
 
 3. Create a virtual environment (optional but recommended):
