@@ -521,3 +521,40 @@ INFO 2023-06-20 15:41:52,021 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:64701]
 INFO 2023-06-20 15:41:52,028 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:64412]
 INFO 2023-06-20 15:41:52,052 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:64703]
 INFO 2023-06-20 15:41:52,057 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:64703]
+INFO 2023-06-20 20:55:31,327 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 20:59:37,761 runserver [mHTTP GET / 200 [0.05, 127.0.0.1:54501][0m
+INFO 2023-06-20 20:59:37,799 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:54502]
+INFO 2023-06-20 20:59:37,805 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:54502]
+INFO 2023-06-20 21:13:21,932 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:58094][0m
+INFO 2023-06-20 21:13:21,942 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:54502]
+INFO 2023-06-20 21:13:21,969 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58096]
+INFO 2023-06-20 21:13:21,974 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58096]
+INFO 2023-06-20 21:13:45,586 views {'update_id': 277802266, 'message': {'message_id': 89, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687275825, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+INFO 2023-06-20 21:13:45,638 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58186]
+INFO 2023-06-20 21:13:45,640 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58186]
+INFO 2023-06-20 21:13:46,326 runserver [mHTTP POST /telegram_webhook/ 200 [0.77, 127.0.0.1:58184][0m
+INFO 2023-06-20 21:14:36,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58186]
+INFO 2023-06-20 21:14:36,958 views {'update_id': 277802267, 'message': {'message_id': 91, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687275877, 'text': '/stupid', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}}
+INFO 2023-06-20 21:14:38,622 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58494]
+INFO 2023-06-20 21:14:38,625 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58494]
+INFO 2023-06-20 21:14:39,411 runserver [mHTTP POST /telegram_webhook/ 200 [2.48, 127.0.0.1:58184][0m
+INFO 2023-06-20 21:14:46,718 views {'update_id': 277802268, 'message': {'message_id': 93, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687275886, 'text': '/fat', 'entities': [{'offset': 0, 'length': 4, 'type': 'bot_command'}]}}
+INFO 2023-06-20 21:14:49,568 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58580]
+INFO 2023-06-20 21:14:49,572 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58580]
+INFO 2023-06-20 21:14:50,307 runserver [mHTTP POST /telegram_webhook/ 200 [3.64, 127.0.0.1:58184][0m
+INFO 2023-06-20 21:14:56,746 views {'update_id': 277802269, 'message': {'message_id': 95, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687275896, 'text': '/dumb', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+INFO 2023-06-20 21:15:02,880 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58634]
+INFO 2023-06-20 21:15:02,882 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58634]
+INFO 2023-06-20 21:15:03,593 runserver [mHTTP POST /telegram_webhook/ 200 [6.90, 127.0.0.1:58184][0m
+INFO 2023-06-20 21:15:13,048 views {'update_id': 277802270, 'message': {'message_id': 97, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687275913, 'text': 'Hi'}}
+INFO 2023-06-20 21:15:13,097 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58667]
+INFO 2023-06-20 21:15:13,101 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58667]
+INFO 2023-06-20 21:15:14,009 runserver [mHTTP POST /telegram_webhook/ 200 [0.99, 127.0.0.1:58184][0m
+INFO 2023-06-20 21:15:21,783 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:58720][0m
+INFO 2023-06-20 21:15:21,793 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58096]
+INFO 2023-06-20 21:15:21,820 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58722]
+INFO 2023-06-20 21:15:21,825 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58722]
+INFO 2023-06-20 21:15:30,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58494]
+INFO 2023-06-20 21:15:40,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58580]
+INFO 2023-06-20 21:15:54,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58634]
+INFO 2023-06-20 21:16:04,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58667]
