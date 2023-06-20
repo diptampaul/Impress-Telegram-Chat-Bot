@@ -1,0 +1,523 @@
+INFO 2023-06-19 23:25:13,288 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-19 23:25:16,623 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 24, in get
+    return render(request, 'home.html')
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR 2023-06-19 23:25:16,638 basehttp "GET / HTTP/1.1" 500 117210
+WARNING 2023-06-19 23:25:17,413 log Not Found: /favicon.ico
+WARNING 2023-06-19 23:25:17,414 basehttp "GET /favicon.ico HTTP/1.1" 404 2652
+INFO 2023-06-19 23:25:32,053 basehttp "GET / HTTP/1.1" 200 224
+INFO 2023-06-20 00:07:57,136 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:08:39,151 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:09:19,129 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\models.py changed, reloading.
+INFO 2023-06-20 00:10:40,432 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:11:06,838 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:11:33,841 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:11:36,537 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:11:37,871 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:12:10,664 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:12:15,054 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:13:08,272 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:13:10,166 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:13:13,012 basehttp "GET / HTTP/1.1" 200 519
+INFO 2023-06-20 00:14:24,362 basehttp "GET / HTTP/1.1" 200 519
+WARNING 2023-06-20 00:14:24,396 log Not Found: /ws/socker-server/
+WARNING 2023-06-20 00:14:24,397 basehttp "GET /ws/socker-server/ HTTP/1.1" 404 2670
+INFO 2023-06-20 00:14:54,532 basehttp "GET / HTTP/1.1" 200 519
+WARNING 2023-06-20 00:14:54,581 log Not Found: /ws/socker-server/
+WARNING 2023-06-20 00:14:54,583 basehttp "GET /ws/socker-server/ HTTP/1.1" 404 2670
+INFO 2023-06-20 00:15:03,526 basehttp "GET / HTTP/1.1" 200 519
+WARNING 2023-06-20 00:15:03,555 log Not Found: /ws/socker-server/
+WARNING 2023-06-20 00:15:03,556 basehttp "GET /ws/socker-server/ HTTP/1.1" 404 2670
+INFO 2023-06-20 00:18:26,089 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:19:03,243 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:21:03,737 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:21:10,163 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:59880][0m
+INFO 2023-06-20 00:21:10,184 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:59882]
+INFO 2023-06-20 00:21:10,187 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:59882]
+INFO 2023-06-20 00:29:52,792 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\impressai\settings.py changed, reloading.
+INFO 2023-06-20 00:43:31,813 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:46:30,493 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-20 00:46:40,355 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:46:40,362 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.23, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:46:40,991 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:46:40,997 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.09, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:46:43,357 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:46:43,365 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.05, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:46:47,855 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:46:47,864 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.05, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:46:56,426 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:46:56,436 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.08, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:47:12,921 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    update = Update.de_json(request.body, bot)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:47:12,929 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.05, 127.0.0.1:49588][0m
+ERROR 2023-06-20 00:47:45,416 log Internal Server Error: /telegram_webhook/
+Traceback (most recent call last):
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\dipta\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py", line 26, in telegram_webhook
+    body = request.body.decode('utf-8')
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_update.py", line 419, in de_json
+    data = cls._parse_data(data)
+  File "C:\Users\dipta\Documents\PythonTasks\Impress AI\env\lib\site-packages\telegram\_telegramobject.py", line 431, in _parse_data
+    return None if data is None else data.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+ERROR 2023-06-20 00:47:45,425 runserver [35;1mHTTP POST /telegram_webhook/ 500 [0.06, 127.0.0.1:49588][0m
+INFO 2023-06-20 00:47:45,868 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 00:47:47,254 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:47:56,710 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 00:47:57,891 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:48:01,238 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 00:48:02,361 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:48:40,153 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:48:50,344 runserver [mHTTP POST /telegram_webhook/ 200 [0.04, 127.0.0.1:50084][0m
+INFO 2023-06-20 00:48:50,538 runserver [mHTTP POST /telegram_webhook/ 200 [0.03, 127.0.0.1:50084][0m
+INFO 2023-06-20 00:48:50,735 runserver [mHTTP POST /telegram_webhook/ 200 [0.03, 127.0.0.1:50084][0m
+INFO 2023-06-20 00:49:11,990 runserver [mHTTP POST /telegram_webhook/ 200 [0.03, 127.0.0.1:50084][0m
+INFO 2023-06-20 00:53:38,081 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 00:53:45,597 runserver [mHTTP POST /telegram_webhook/ 200 [0.05, 127.0.0.1:51277][0m
+INFO 2023-06-20 01:08:13,885 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:08:17,302 runserver [mHTTP GET / 200 [0.03, 127.0.0.1:56161][0m
+INFO 2023-06-20 01:08:17,333 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:56165]
+INFO 2023-06-20 01:08:17,338 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:56165]
+INFO 2023-06-20 01:08:31,154 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:08:33,299 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:10:58,894 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:00,233 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:08,203 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:09,855 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:13,534 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:14,875 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:31,947 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:33,302 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:35,746 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:37,410 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:40,054 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:41,739 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:11:48,290 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:11:49,559 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:12:07,063 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:12:08,558 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:12:20,010 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:12:21,746 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:12:34,679 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:12:36,144 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:13:01,590 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:13:02,859 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:13:16,221 views {'update_id': 277802224, 'message': {'message_id': 8, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687203795, 'text': 'Ssup?'}}
+INFO 2023-06-20 01:13:16,321 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:58662]
+INFO 2023-06-20 01:13:16,330 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:58662]
+INFO 2023-06-20 01:13:16,343 runserver [mHTTP POST /telegram_webhook/ 200 [0.20, 127.0.0.1:58657][0m
+INFO 2023-06-20 01:13:17,001 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:58662]
+INFO 2023-06-20 01:15:45,507 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:15:47,991 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:15:55,554 views {'update_id': 277802225, 'message': {'message_id': 9, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687203955, 'text': 'Hi'}}
+INFO 2023-06-20 01:15:55,636 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:59441]
+INFO 2023-06-20 01:15:55,639 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:59441]
+INFO 2023-06-20 01:15:55,645 runserver [mHTTP POST /telegram_webhook/ 200 [0.14, 127.0.0.1:59438][0m
+INFO 2023-06-20 01:15:57,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:59441]
+INFO 2023-06-20 01:16:23,369 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:16:24,424 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:16:42,660 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:16:43,715 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:17:49,521 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:17:50,586 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:18:05,063 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:18:06,721 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:18:11,241 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:18:12,550 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:18:17,604 views {'update_id': 277802226, 'message': {'message_id': 10, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687204097, 'text': 'Hi'}}
+INFO 2023-06-20 01:18:17,660 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:60369]
+INFO 2023-06-20 01:18:17,666 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:60369]
+INFO 2023-06-20 01:18:17,674 runserver [mHTTP POST /telegram_webhook/ 200 [0.10, 127.0.0.1:60367][0m
+INFO 2023-06-20 01:18:32,042 runserver [mHTTP GET / 200 [0.03, 127.0.0.1:60490][0m
+INFO 2023-06-20 01:18:32,073 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:60494]
+INFO 2023-06-20 01:18:32,077 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:60494]
+INFO 2023-06-20 01:19:09,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:60369]
+INFO 2023-06-20 01:21:43,575 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:21:45,009 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:21:48,248 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:61362][0m
+INFO 2023-06-20 01:21:48,275 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:61364]
+INFO 2023-06-20 01:21:48,280 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:61364]
+INFO 2023-06-20 01:21:56,302 views {'update_id': 277802227, 'message': {'message_id': 11, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687204315, 'text': 'Hi'}}
+INFO 2023-06-20 01:21:56,492 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:61410]
+INFO 2023-06-20 01:21:56,495 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:61410]
+INFO 2023-06-20 01:21:56,509 runserver [mHTTP POST /telegram_webhook/ 200 [0.27, 127.0.0.1:61407][0m
+INFO 2023-06-20 01:21:57,152 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:61410]
+INFO 2023-06-20 01:22:08,140 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:22:09,318 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:22:30,601 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:22:32,031 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:22:36,196 views {'update_id': 277802228, 'message': {'message_id': 12, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687204355, 'text': 'Hi'}}
+INFO 2023-06-20 01:22:36,286 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:61729]
+INFO 2023-06-20 01:22:36,300 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:61729]
+INFO 2023-06-20 01:22:36,313 runserver [mHTTP POST /telegram_webhook/ 200 [0.19, 127.0.0.1:61723][0m
+INFO 2023-06-20 01:22:39,948 views {'update_id': 277802229, 'message': {'message_id': 13, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687204360, 'text': 'Hello'}}
+INFO 2023-06-20 01:22:39,998 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:61759]
+INFO 2023-06-20 01:22:40,000 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:61759]
+INFO 2023-06-20 01:22:40,007 runserver [mHTTP POST /telegram_webhook/ 200 [0.09, 127.0.0.1:61723][0m
+INFO 2023-06-20 01:22:46,043 views {'update_id': 277802230, 'message': {'message_id': 14, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687204366, 'text': 'How'}}
+INFO 2023-06-20 01:22:46,107 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:61759]
+INFO 2023-06-20 01:22:46,114 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:61792]
+INFO 2023-06-20 01:22:46,117 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:61792]
+INFO 2023-06-20 01:22:46,127 runserver [mHTTP POST /telegram_webhook/ 200 [0.12, 127.0.0.1:61723][0m
+INFO 2023-06-20 01:23:26,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:61729]
+INFO 2023-06-20 01:23:36,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:61792]
+INFO 2023-06-20 01:24:15,009 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:24:16,253 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:24:23,858 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 01:28:02,665 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:28:06,013 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:64807][0m
+INFO 2023-06-20 01:28:06,046 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:64809]
+INFO 2023-06-20 01:28:06,055 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:64809]
+INFO 2023-06-20 01:29:27,857 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\impressai\settings.py changed, reloading.
+INFO 2023-06-20 01:29:29,004 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:33:43,622 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:33:45,908 runserver [mHTTP GET / 200 [0.03, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:33:45,934 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49453]
+INFO 2023-06-20 01:33:45,940 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49453]
+INFO 2023-06-20 01:33:50,792 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:33:50,803 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49453]
+INFO 2023-06-20 01:33:50,823 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49463]
+INFO 2023-06-20 01:33:50,828 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49463]
+INFO 2023-06-20 01:33:54,296 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:33:54,302 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49463]
+INFO 2023-06-20 01:33:54,320 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49469]
+INFO 2023-06-20 01:33:54,326 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49469]
+INFO 2023-06-20 01:34:13,892 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:34:13,898 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49469]
+INFO 2023-06-20 01:34:13,912 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49585]
+INFO 2023-06-20 01:34:13,917 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49585]
+INFO 2023-06-20 01:34:41,899 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:34:41,903 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49585]
+INFO 2023-06-20 01:34:41,918 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49684]
+INFO 2023-06-20 01:34:41,921 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49684]
+INFO 2023-06-20 01:34:43,739 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:34:43,744 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49684]
+INFO 2023-06-20 01:34:43,759 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49696]
+INFO 2023-06-20 01:34:43,762 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49696]
+INFO 2023-06-20 01:34:55,416 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:49451][0m
+INFO 2023-06-20 01:34:55,420 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49696]
+INFO 2023-06-20 01:34:55,438 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:49734]
+INFO 2023-06-20 01:34:55,442 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:49734]
+INFO 2023-06-20 01:39:15,878 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:50398][0m
+INFO 2023-06-20 01:39:15,884 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:49734]
+INFO 2023-06-20 01:39:15,902 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:50400]
+INFO 2023-06-20 01:39:15,907 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:50400]
+INFO 2023-06-20 01:39:57,316 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:50398][0m
+INFO 2023-06-20 01:39:57,322 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:50400]
+INFO 2023-06-20 01:39:57,342 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:50524]
+INFO 2023-06-20 01:39:57,348 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:50524]
+INFO 2023-06-20 01:40:28,226 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:50398][0m
+INFO 2023-06-20 01:40:28,233 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:50524]
+INFO 2023-06-20 01:40:28,260 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:50627]
+INFO 2023-06-20 01:40:28,264 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:50627]
+INFO 2023-06-20 01:40:50,123 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:50398][0m
+INFO 2023-06-20 01:40:50,128 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:50627]
+INFO 2023-06-20 01:40:50,142 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:50711]
+INFO 2023-06-20 01:40:50,147 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:50711]
+INFO 2023-06-20 01:41:24,413 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:50398][0m
+INFO 2023-06-20 01:41:24,420 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:50711]
+INFO 2023-06-20 01:41:24,442 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:50844]
+INFO 2023-06-20 01:41:24,448 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:50844]
+INFO 2023-06-20 01:43:11,825 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:51238][0m
+INFO 2023-06-20 01:43:11,831 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:50844]
+INFO 2023-06-20 01:43:11,856 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:51240]
+INFO 2023-06-20 01:43:11,860 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:51240]
+INFO 2023-06-20 01:45:05,194 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:51572][0m
+INFO 2023-06-20 01:45:05,200 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:51240]
+INFO 2023-06-20 01:45:05,218 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:51574]
+INFO 2023-06-20 01:45:05,221 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:51574]
+INFO 2023-06-20 01:45:28,624 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 01:45:30,595 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:49:05,251 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:49:16,207 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\admin.py changed, reloading.
+INFO 2023-06-20 01:49:17,445 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:51:45,402 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:52942][0m
+INFO 2023-06-20 01:51:45,452 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:52944]
+INFO 2023-06-20 01:51:45,475 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:52944]
+INFO 2023-06-20 01:51:57,394 views {'update_id': 277802231, 'message': {'message_id': 15, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687206117, 'text': 'stupid'}}
+INFO 2023-06-20 01:52:00,426 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:52983]
+INFO 2023-06-20 01:52:00,428 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:52983]
+INFO 2023-06-20 01:52:00,434 runserver [mHTTP POST /telegram_webhook/ 200 [3.07, 127.0.0.1:52975][0m
+INFO 2023-06-20 01:52:04,267 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:52942][0m
+INFO 2023-06-20 01:52:04,273 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:52944]
+INFO 2023-06-20 01:52:04,289 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:52993]
+INFO 2023-06-20 01:52:04,294 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:52993]
+INFO 2023-06-20 01:54:16,163 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 01:54:21,057 views {'update_id': 277802232, 'message': {'message_id': 16, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687206260, 'text': 'stupid'}}
+INFO 2023-06-20 01:54:23,635 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:53458]
+INFO 2023-06-20 01:54:23,637 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:53458]
+INFO 2023-06-20 01:54:23,646 runserver [mHTTP POST /telegram_webhook/ 200 [2.65, 127.0.0.1:53449][0m
+INFO 2023-06-20 01:54:32,243 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:53475][0m
+INFO 2023-06-20 01:54:32,267 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:53477]
+INFO 2023-06-20 01:54:32,270 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:53477]
+INFO 2023-06-20 01:55:15,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:53458]
+INFO 2023-06-20 02:00:01,592 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 02:01:28,865 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 02:04:20,700 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 02:04:29,332 views {'update_id': 277802257, 'message': {'message_id': 76, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687206869, 'text': 'Hi'}}
+INFO 2023-06-20 02:04:32,075 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:55701]
+INFO 2023-06-20 02:04:32,078 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:55701]
+INFO 2023-06-20 02:04:32,084 runserver [mHTTP POST /telegram_webhook/ 200 [2.79, 127.0.0.1:55665][0m
+INFO 2023-06-20 02:05:23,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:55701]
+INFO 2023-06-20 13:08:10,311 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:08:27,780 views {'update_id': 277802258, 'message': {'message_id': 77, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687246707, 'text': 'Joke'}}
+INFO 2023-06-20 13:08:32,771 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:51971]
+INFO 2023-06-20 13:08:32,773 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:51971]
+INFO 2023-06-20 13:08:32,780 runserver [mHTTP POST /telegram_webhook/ 200 [5.04, 127.0.0.1:51955][0m
+INFO 2023-06-20 13:08:49,029 views {'update_id': 277802259, 'message': {'message_id': 78, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687246729, 'text': '/stupid', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}}
+INFO 2023-06-20 13:08:51,974 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:52034]
+INFO 2023-06-20 13:08:51,976 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:52034]
+INFO 2023-06-20 13:08:51,983 runserver [mHTTP POST /telegram_webhook/ 200 [3.00, 127.0.0.1:51955][0m
+INFO 2023-06-20 13:17:12,642 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:17:18,715 views {'update_id': 277802260, 'message': {'message_id': 79, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687247238, 'text': '/dumb', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+INFO 2023-06-20 13:17:21,443 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:54921]
+INFO 2023-06-20 13:17:21,446 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:54921]
+INFO 2023-06-20 13:17:21,452 runserver [mHTTP POST /telegram_webhook/ 200 [2.77, 127.0.0.1:54912][0m
+INFO 2023-06-20 13:18:13,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:54921]
+INFO 2023-06-20 13:18:19,280 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 13:18:20,783 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:21:14,860 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:21:23,338 views {'update_id': 277802261, 'message': {'message_id': 80, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687247483, 'text': '/dumb', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+INFO 2023-06-20 13:21:26,775 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:55492]
+INFO 2023-06-20 13:21:26,777 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:55492]
+INFO 2023-06-20 13:21:26,784 runserver [mHTTP POST /telegram_webhook/ 200 [3.47, 127.0.0.1:55479][0m
+INFO 2023-06-20 13:22:17,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:55492]
+INFO 2023-06-20 13:24:22,128 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 13:24:23,441 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:24:40,676 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 13:24:41,841 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 13:24:52,321 views {'update_id': 277802262, 'message': {'message_id': 81, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687247692, 'text': 'Hi'}}
+INFO 2023-06-20 13:24:52,369 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:56127]
+INFO 2023-06-20 13:24:52,372 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:56127]
+INFO 2023-06-20 13:24:52,374 views Message sent successfully
+INFO 2023-06-20 13:24:52,378 runserver [mHTTP POST /telegram_webhook/ 200 [0.09, 127.0.0.1:56125][0m
+INFO 2023-06-20 13:24:52,999 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:56127]
+INFO 2023-06-20 14:55:49,403 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:55:51,711 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:55:58,353 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:55:59,455 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:56:08,310 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:56:09,345 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:56:45,906 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:56:47,153 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:56:49,545 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:56:50,709 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:56:54,092 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:56:55,398 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:03,125 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:05,563 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:08,621 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:10,564 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:20,177 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:21,439 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:26,031 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:27,334 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:45,049 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:47,068 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:49,595 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:50,999 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:53,533 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\views.py changed, reloading.
+INFO 2023-06-20 14:57:54,998 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 14:57:58,926 views {'update_id': 277802263, 'message': {'message_id': 83, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687253278, 'text': '/fat', 'entities': [{'offset': 0, 'length': 4, 'type': 'bot_command'}]}}
+INFO 2023-06-20 14:58:00,927 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:54881]
+INFO 2023-06-20 14:58:00,930 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:54881]
+INFO 2023-06-20 14:58:01,620 runserver [mHTTP POST /telegram_webhook/ 200 [2.73, 127.0.0.1:54864][0m
+INFO 2023-06-20 14:58:09,378 views {'update_id': 277802264, 'message': {'message_id': 85, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687253289, 'text': '/dumb', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+INFO 2023-06-20 14:58:12,778 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:54925]
+INFO 2023-06-20 14:58:12,782 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:54925]
+INFO 2023-06-20 14:58:13,471 runserver [mHTTP POST /telegram_webhook/ 200 [4.13, 127.0.0.1:54864][0m
+INFO 2023-06-20 14:58:19,716 views {'update_id': 277802265, 'message': {'message_id': 87, 'from': {'id': 522877450, 'is_bot': False, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'language_code': 'en'}, 'chat': {'id': 522877450, 'first_name': 'Diptam', 'last_name': 'Paul', 'username': 'diptam', 'type': 'private'}, 'date': 1687253299, 'text': 'Test'}}
+INFO 2023-06-20 14:58:19,803 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:54944]
+INFO 2023-06-20 14:58:19,807 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:54944]
+INFO 2023-06-20 14:58:20,609 runserver [mHTTP POST /telegram_webhook/ 200 [0.94, 127.0.0.1:54864][0m
+INFO 2023-06-20 14:58:51,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:54881]
+INFO 2023-06-20 14:59:03,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:54925]
+INFO 2023-06-20 14:59:11,000 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:54944]
+INFO 2023-06-20 15:09:55,592 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56712][0m
+INFO 2023-06-20 15:09:55,648 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:56714]
+INFO 2023-06-20 15:09:55,653 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:56714]
+INFO 2023-06-20 15:15:47,332 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 15:15:48,608 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 15:39:23,476 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 15:39:32,031 runserver [mHTTP GET / 200 [0.04, 127.0.0.1:63971][0m
+INFO 2023-06-20 15:39:32,065 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:63973]
+INFO 2023-06-20 15:39:32,080 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:63973]
+INFO 2023-06-20 15:40:08,571 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 15:40:10,290 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 15:40:37,333 autoreload C:\Users\dipta\Documents\PythonTasks\Impress AI\impressai\main\consumers.py changed, reloading.
+INFO 2023-06-20 15:40:38,750 autoreload Watching for file changes with StatReloader
+INFO 2023-06-20 15:40:44,985 runserver [mHTTP GET / 200 [0.05, 127.0.0.1:64410][0m
+INFO 2023-06-20 15:40:45,023 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:64412]
+INFO 2023-06-20 15:40:45,033 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:64412]
+INFO 2023-06-20 15:41:52,021 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:64701][0m
+INFO 2023-06-20 15:41:52,028 runserver WebSocket DISCONNECT /ws/socker-server/ [127.0.0.1:64412]
+INFO 2023-06-20 15:41:52,052 runserver WebSocket HANDSHAKING /ws/socker-server/ [127.0.0.1:64703]
+INFO 2023-06-20 15:41:52,057 runserver WebSocket CONNECT /ws/socker-server/ [127.0.0.1:64703]

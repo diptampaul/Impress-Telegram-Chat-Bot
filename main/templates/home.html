@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <table style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 5px;">User ID</th>
+                <th style="border: 1px solid black; padding: 5px;">username</th>
+                <th style="border: 1px solid black; padding: 5px;">first_name</th>
+                <th style="border: 1px solid black; padding: 5px;">last_name</th>
+                <th style="border: 1px solid black; padding: 5px;">user_choice</th>
+                <th style="border: 1px solid black; padding: 5px;" colspan="2">joke</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <table style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 5px;">User ID</th>
+                <th style="border: 1px solid black; padding: 5px;">Total Requests</th>
+            </tr>
+        </thead>
+        <tbody id="table-body-count">
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <script type="text/javascript">
+        console.log(window.location.host);
+        let url = `ws://${window.location.host}/ws/socker-server/`
+
+        const chatSocket = new WebSocket(url);
+
+        chatSocket.onmessage = function(e){
+            let data = JSON.parse(e.data);
+            console.log(data);
+            c = data.c;
+            data = data.data;
+
+            // Get the table body element
+            let tableBody = document.getElementById("table-body");
+            let tableBodyCount = document.getElementById("table-body-count");
+
+            // Loop through the data and create <tr> elements
+            for (let i = 0; i < data.length; i++) {
+                // Create a new <tr> element
+                let newRow = document.createElement("tr");
+                
+                let newCell = document.createElement("td");
+                newCell.textContent = data[i].user_id;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.textContent = data[i].username;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.textContent = data[i].first_name;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.textContent = data[i].last_name;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.textContent = data[i].user_choice;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newCell.textContent = data[i].joke;
+                newCell.setAttribute("colspan", "2");
+                newRow.appendChild(newCell);
+
+                // Append the new row to the table body
+                tableBody.appendChild(newRow);
+            }
+
+
+            for (let i = 0; i < c.length; i++) {
+                // Create a new <tr> element
+                let newRow = document.createElement("tr");
+                
+                let newCell = document.createElement("td");
+                newCell.textContent = c[i].user_id;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                newCell = document.createElement("td");
+                newCell.textContent = c[i].c;
+                newCell.style.border = "1px solid black";
+                newCell.style.padding = "5px";
+                newRow.appendChild(newCell);
+
+                // Append the new row to the table body
+                tableBodyCount.appendChild(newRow);
+            }
+        }
+
+        
+    </script>
+</body>
+</html>
